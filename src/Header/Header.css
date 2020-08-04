@@ -1,0 +1,12 @@
+.header {
+    grid-area: header;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10vh;
+
+    background-color:  rgb(80, 16, 163);
+    color: rgb(245, 233, 255);
+}
