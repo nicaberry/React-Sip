@@ -4,7 +4,7 @@ import Li from './Li/Li'
 
 export default function List(props) {
     return (
-        <ol>
+        <ol className="list">
           { props.emoji.map((item, index) => {
             return <Li item={item} key={Date.now() + index}></Li>
             })
