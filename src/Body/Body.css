@@ -1,7 +1,16 @@
 .body {
     grid-area: body;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
     height: 80vh;
 
     background-color: rgb(245, 233, 255);
+}
+
+.container-for-list-emoji {
+
 }
