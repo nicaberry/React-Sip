@@ -1,0 +1,25 @@
+.danger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10rem;
+    height: 5rem;
+    margin: 6rem;
+
+    background-color: crimson;
+    color: blanchedalmond;
+}
+
+.not-danger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10rem;
+    height: 5rem;
+    margin: 6rem;
+
+    background-color: rgb(117, 220, 20);
+    color: blanchedalmond;
+}

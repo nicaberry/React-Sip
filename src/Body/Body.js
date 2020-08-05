@@ -2,6 +2,8 @@ import React from 'react';
 import './Body.css';
 import List from './List/List';
 import Audio from './Audio/Audio';
+import Warning from './Warning/Warning';
+import Form from './Form/Form';
 
 export default function Body(props) {
     return (
@@ -15,6 +17,15 @@ export default function Body(props) {
            <section>
                <h2>Blue Beard:</h2>
                <Audio/>
+           </section>
+
+           <section>
+               <Form/>
+           </section>
+
+           <section>
+               <Warning open="true"/>
+               <Warning open="false"/>
            </section>
 
        </div>
